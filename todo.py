@@ -9,20 +9,20 @@ def todo_list (archivo, c):
         for n in range(len(ToDo)):
             ToDo[n] = ToDo[n].split(',')
 
-            # c.checkbox( f"--> {ToDo[n][1]}", value = int(ToDo[n][0]) )
-
             if c.checkbox( f"--> {ToDo[n][1]}", value = int(ToDo[n][0]) ):
                 ToDo[n][0] = '1'
             else:
                 ToDo[n][0] = '0'
 
-
+    if c.button("add"):
+        # st.write(ToDo)
+        text = c.text_input("Ingrese texto")
+        # if text != '':
+        #     ToDo.append([0, text])
 
     with open(f"csv/{archivo}", "w") as list:
         for n in range(len(ToDo)):
             ToDo[n] = ','.join(ToDo[n])
         ToDo = ';'.join(ToDo)
-
-        c.write(ToDo)
 
         list.write(ToDo)
