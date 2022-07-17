@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+from todo import todo_list
 
 
 st.set_page_config(
@@ -13,12 +14,14 @@ st.set_page_config(
 
 st.title('Botley')
 
-col1, col2 = st.columns([3, 1])
+c1, c2 = st.columns([3, 1])
+
+c1.subheader("Descripcion:")
+
+
+c1.subheader("Pendientes:")
+todo_list("02_🕹️_Botley.csv", c1)
 
 
 
-col1.checkbox('--> deshechar')
-
-
-
-col2.image('https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dw0a4f7f20/images/F4EEF8E1_1.jpg?sw=767&sh=767&sm=fit')
+c2.image('https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dw0a4f7f20/images/F4EEF8E1_1.jpg?sw=767&sh=767&sm=fit')

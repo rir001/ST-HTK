@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+from todo import todo_list
 
 
 st.set_page_config(
@@ -13,16 +14,16 @@ st.set_page_config(
 
 st.title('Matatabot')
 
-col1, col2 = st.columns([3, 1])
+c1, c2 = st.columns([3, 1])
+
+c1.subheader("Descripcion:")
+
+
+c1.subheader("Pendientes:")
+todo_list("01_🤖_Matatabot.csv", c1)
 
 
 
-col1.checkbox('--> investigar linealidad procesamiento codigo')
-col1.checkbox('--> investigar modelo placa')
-col1.checkbox('--> investigar aplicacion y conexion bluetooht')
-
-
-
-col2.image('https://fast.matatalab.com/cdn/ff/nev7sH9-ncolshyca7fwuwPlDgDpX6NewLrv5aiW-H0/1598513311/public/2020-08/matatabot.jpg')
+c2.image('https://fast.matatalab.com/cdn/ff/nev7sH9-ncolshyca7fwuwPlDgDpX6NewLrv5aiW-H0/1598513311/public/2020-08/matatabot.jpg')
 
 
