@@ -26,3 +26,14 @@ todo_list("03_🪞_Osmo_coding.csv", c1)
 
 c2.image('https://images.playosmo.com/shopping/product-renders-square/osmo_coding_sk.jpg')
 
+st.markdown("---")
+
+st.header("Resultados:")
+st.subheader("Nº1 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+st.subheader("")
+st.subheader("Nº2 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+st.subheader("")
+st.subheader("Nº3 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")

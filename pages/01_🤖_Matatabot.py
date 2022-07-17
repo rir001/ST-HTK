@@ -26,4 +26,16 @@ todo_list("01_🤖_Matatabot.csv", c1)
 
 c2.image('https://fast.matatalab.com/cdn/ff/nev7sH9-ncolshyca7fwuwPlDgDpX6NewLrv5aiW-H0/1598513311/public/2020-08/matatabot.jpg')
 
+st.markdown("---")
+
+st.header("Resultados:")
+st.subheader("Nº1 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+st.subheader("")
+st.subheader("Nº2 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+st.subheader("")
+st.subheader("Nº3 - aaaaa")
+st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+
 
