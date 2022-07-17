@@ -11,7 +11,7 @@ st.set_page_config(
 
 
 st.title("IPre Hack the kit")
-st.subheader("Hola! Si estas aquí, probablemente te llamas Jorge o Valeria, anuque tambien puede que seas un entuciasta que esta buescando los resultados de nuestra investigacion, cualquiera sea el caso, creamos este espacio para facilitar la difucion de nuestra investigacion ---")
+st.subheader("Hola! Si estas aquí, probablemente te llamas Jorge o Valeria, anuque tambien puede que seas un entuciasta que esta buscando los resultados de nuestra investigacion, cualquiera sea el caso, creamos este espacio para facilitar la difucion de nuestra investigacion ---")
 
 
 buttons = map(lambda x : x[3:-3]  , os.listdir('pages'))
