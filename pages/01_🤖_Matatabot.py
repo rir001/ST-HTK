@@ -28,6 +28,8 @@ c2.image('https://fast.matatalab.com/cdn/ff/nev7sH9-ncolshyca7fwuwPlDgDpX6NewLrv
 
 st.markdown("---")
 
+st.markdown("(diseccion)[https://fccid.io/2APCM-MTB1801/Internal-Photos/Internal-Photos-5603092]")
+
 st.header("Resultados:")
 st.subheader("Nº1 - aaaaa")
 st.write("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
